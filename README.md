@@ -1,9 +1,13 @@
 Intro:
 ======
-There do not appear to be many, easily found basic, bare-bones electron apps without many extraneous modules that demo an app
+There do not appear to be many, easily found, basic, bare-bones, electron apps without many extraneous modules to demo an app
 with jQuery usage and Bootstrap styling.  
 
+This repo with npm globally installed electron is < 5mb in size when cloned and creates a dummy app with this startup screen:
+
 ![Alt text](Screenshot.jpeg?raw=true "Screen shot")
+
+Clicking the button use nodejs services to alter the text above the button to show the current OS's type.
 
 Prerequisites:
 ==============
