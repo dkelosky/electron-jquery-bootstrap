@@ -3,6 +3,8 @@ Intro:
 There do not appear to be many, easily found basic, bare-bones electron apps without many extraneous modules that demo an app
 with jQuery usage and Bootstrap styling.  
 
+![Alt text](Screenshot.jpeg?raw=true "Screen shot")
+
 Prerequisites:
 ==============
 * nodejs is required (https://nodejs.org/en/download/)
