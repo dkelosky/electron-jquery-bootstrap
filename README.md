@@ -1,23 +1,19 @@
 
 Prerequisites:
-===========
-nodejs is required 
-npm install -g electron (globally install - not installing locally in this project), isn't neccessary, but not covering other ways to get around this here.
+==============
+*nodejs is required (https://nodejs.org/en/download/)
+*Prebuilt Electron (technically other ways to do this)
+  npm install -g electron 
 
-note proxy settings if download issues 
+Note that there are various `npm config set` options to adjust if you're begin a proxy and wish to download npm modules.
 
-git clone https://github.com/dkelosky/electron-jquery-bootstrap.git
-cd electron-jquery-bootstrap
-npm install 
-electron .
+First time setup:
+=================
+*git clone https://github.com/dkelosky/electron-jquery-bootstrap.git
+*cd electron-jquery-bootstrap
+*npm install 
+*electron .
 
 After first setup:
+==================
 electron . 
-
-
-layout:
-css
-node_modules
-src + 
-index.html (main window)
-package
