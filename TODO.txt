@@ -1,0 +1,32 @@
+http://photonkit.com/components/
+
+TODO: build
+    * executable
+    * bower for bootstrap / jquery 
+    * gulp 
+    * convert require to import?
+
+TODO: application 
+    * MUST GET CACHE DISABLED!
+    * Button check to get latest
+    * filter and add common content optionally
+     
+TODO: cleanup 
+    * Get proper organization of files: css, js, font  
+    * Get propert grunt setup and read tutorial
+    * Remove unused / uneeded node_modules to make lightweight
+    * Merge in boilerplate changes 
+    * Clean up gulp files https://css-tricks.com/gulp-for-beginners/  
+    * Push template to github
+    * create README 
+    * upgrade npm and electron?    
+    * breakup app.js to before html and something else after?
+    * test installers 
+    
+jQuery
+    Possible ways to load jQuery prior to usage
+    
+    The mechanism using "require" works by itself; however, taking out the surrounding 
+    script statements made no meaningful impact.
+    
+   
