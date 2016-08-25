@@ -1,3 +1,7 @@
+Intro:
+======
+There do not appear to be many, easily found basic, bare-bones electron apps without many extraneous modules that demo an app
+with jQuery usage and Bootstrap styling.  
 
 Prerequisites:
 ==============
