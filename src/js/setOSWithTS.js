@@ -9,5 +9,5 @@ class Student {
 function greeter(person) {
     return "Hello ,     " + person.firstName + " " + person.lastName;
 }
-var user = new Student("Jane", "M.", "User");
+var user = new Student("Jane", "M. ", "User");
 console.log(user);

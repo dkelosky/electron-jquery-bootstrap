@@ -1,6 +1,5 @@
 
 // main script file to set listers with jQuery and route click events
-// require('tether'); // load all of Bootstrap's jQuery plugins
 require('bootstrap'); // load all of Bootstrap's jQuery plugins
 var setOS = require('./src/setOS');
 
