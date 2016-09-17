@@ -12,6 +12,17 @@ and creates a dummy app with this startup screen:
 Clicking the button use nodejs services to alter the text above the button to
 show the current OS's type.
 
+Typescript:
+===========
+For experimentation, a Typescript source file is included.  If you develop
+with the Atom editor, you can use ```npm install -g typescript```
+and ```apm install atom-typescript``` so that if you edit
+file src\setOSWithTS.ts, the file will automatically be compiled to
+src\js\setOSwithTS.js.  
+
+These files are currently unused, but show an example of Typescript, and how
+to incorporate into an Eelcton project. 
+
 Prerequisites:
 ==============
 * nodejs is required https://nodejs.org/en/download/
