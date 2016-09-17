@@ -7,7 +7,7 @@ dependences are: bootstrap, jquery, and tether.
 This repo with npm globally installed electron is ~ 7mb in size when cloned
 and creates a dummy app with this startup screen:
 
-![Alt text](ScreenshotApp.jpeg?raw=true "Screen shot")
+![Alt text](AppScreenshot.jpeg?raw=true "Screen shot")
 
 Clicking the button use nodejs services to alter the text above the button to
 show the current OS's type.
