@@ -14,10 +14,8 @@ show the current OS's type.
 
 Prerequisites:
 ==============
-* nodejs is required
-  https://nodejs.org/en/download/
-* Prebuilt Electron
-  npm install -g electron
+* nodejs is required https://nodejs.org/en/download/
+* Prebuilt Electron ```npm install -g electron```
 
 If you are on a corporate proxy there are various `npm config set` options to
 tweek in order to download npm modules.
@@ -25,12 +23,11 @@ tweek in order to download npm modules.
 For the first time setup:
 =========================
 Issue the following commands after having the prerequisites:
-* git clone https://github.com/dkelosky/electron-jquery-bootstrap.git
-* cd electron-jquery-bootstrap
-* npm install
-* electron .
+* ```git clone https://github.com/dkelosky/electron-jquery-bootstrap.git```
+* ```cd electron-jquery-bootstrap```
+* ```npm install```
+* ```electron .```
 
 After first setup:
 ==================
-After closing the app for the first time, it can be restarted via:
-`electron .
+After closing the app for the first time, it can be restarted via ```electron .```
