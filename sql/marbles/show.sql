@@ -1,2 +1,0 @@
-/* Data */
-SELECT * FROM EVENT.MARBLES
