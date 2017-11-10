@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Marbles!</title>
+    <title>Bootstrap &amp; jQuery Electron!</title>
 
     <!-- include open source css, jQuery, and bootsrap files -->
     <link href="css/photon/css/photon.icons.css" rel="stylesheet" type="text/css">
@@ -12,6 +12,7 @@
     <script>
         window.$ = window.jQuery = require('jquery');
     </script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
 
     <!-- include our main script -->
@@ -23,68 +24,12 @@
     <!-- show some copy/pasted Bootstrap entities -->
     <div class="container text-center">
         <div class="jumbotron">
-            <h1 class="display-3">Marbles</h1>
-            <p class="lead">With CICS &amp; DB2 usage</p>
+            <h1 class="display-3">Bootstrap Styles</h1>
+            <p class="lead">With jQuery usage</p>
         </div>
 
         <div class="row">
-            <div class="col-sm-12">
-
-                <form>
-                    <div class="form-group row">
-
-                        <div class="form-inline">
-                            <input id="input-color" type="text" class="form-control" placeholder="Color">
-                            <button id="create-marble" type="button" class="btn btn-info">M</button>
-                        </div>
-                        <!--<div class="text-center">-->
-                        <!--</div>-->
-                    </div>
-
-                    <!--
-                <div class="text-center">
-                </div>-->
-
-
-                    <!--<div id="row-div" class="text-right">Click button to set OS!</div>-->
-                    <div class="form-group row">
-
-                        <table id="marble-table" class="table">
-                            <thead>
-                                <tr>
-                                    <th>Action</th>
-                                    <th>Color</th>
-                                    <th>Inventory</th>
-                                    <!--<th>Size</th>-->
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <!--<tr>-->
-                                <!--<th><button type="button" class="btn btn-primary btn-sm marble-row-add"><span class="icon icon-plus-squared"/></button>-->
-                                <!--<button type="button" class="btn btn-danger btn-sm marble-row-minus"><span class="icon icon-minus-squared"/></button></th>-->
-                                <!--<td>Mark</td>-->
-                                <!--<td>Otto</td>-->
-                                <!--<td>@mdo</td>-->
-                                <!--</tr>-->
-                                <!--<tr>
-                            <th scope="row">2</th>
-                            <td>Jacob</td>
-                            <td>Thornton</td>
-                            <!--<td>@fat</td>-->
-                                <!--</tr>-->
-                                <!--<tr>-->
-                                <!--<th scope="row">3</th>-->
-                                <!--<td>Larry</td>-->
-                                <!--<td>the Bird</td>-->
-                                <!--<td>@twitter</td>-->
-                                <!--</tr>-->
-                            </tbody>
-                        </table>
-                    </div>
-                </form>
-
-            </div>
-            <!--<div class="col-sm-4">
+            <div class="col-sm-4">
 
                 <form>
                     <div class="form-group">
@@ -98,14 +43,14 @@
                 </form>
 
                 <!-- use this for some jQuery manipulation -->
-            <!--<div id="os-div" class="text-right">Click button to set OS!</div>
-            <div class="form-group">
-                <button id="button-id" type="button" class="btn btn-default center-block">Set OS</button>
-            </div>-->
+                <div id="os-div" class="text-center">Click button to set OS!</div>
+                <div class="form-group">
+                    <button id="button-id" type="button" class="btn btn-default center-block">Set OS</button>
+                </div>
 
+            </div>
         </div>
     </div>
-    <!--</div>-->
 
 </body>
 
