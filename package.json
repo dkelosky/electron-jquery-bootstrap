@@ -5,7 +5,8 @@
   "license": "MIT",
   "typings": "lib/index.d.ts",
   "scripts": {
-    "build": "tsc --pretty"
+    "build": "tsc --pretty",
+    "lint": "tslint --force --format verbose \"src/**/*.ts\""
   },
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.4",
@@ -15,7 +16,9 @@
     "log4js": "^2.3.11"
   },
   "devDependencies": {
-    "@types/node": "^8.0.0"
+    "@types/node": "^8.0.0",
+    "tslint": "^5.0.0",
+    "typescript": "^2.3.0"
   },
   "engines": {
     "node": ">=6.0.0"
