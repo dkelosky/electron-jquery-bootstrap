@@ -2,7 +2,7 @@ Intro:
 ======
 This is a bare-bones electron app that uses jQuery, Twitter's Bootstrap for
 styling, and Photon kit for icons (http://photonkit.com/) without any other extraneous 
-modules.  The only node_modules dependences are: bootstrap, jquery, and tether.  
+modules.  The only node_modules dependencies are: bootstrap, jquery, popper.js and tether.  
 
 This repo with npm globally installed electron is ~ 7mb in size when cloned
 and creates a dummy app with this startup screen:
