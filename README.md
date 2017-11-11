@@ -3,7 +3,7 @@ Intro:
 This is a bare-bones electron app that uses jQuery, Twitter's Bootstrap for
 styling, and [Photon kit for icons](http://photonkit.com/).  
 
-A JavaScript version (that should still function is [here][0].
+A JavaScript version (that should still function) is [here][0].
 
 I only use Typescript for Node.js development, so this sample app has been
 updated to reflect that.  Typescript is awesome, you should use it!
