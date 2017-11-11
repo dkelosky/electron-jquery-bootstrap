@@ -1,8 +1,15 @@
 Intro:
 ======
 This is a bare-bones electron app that uses jQuery, Twitter's Bootstrap for
-styling, and Photon kit for icons (http://photonkit.com/) without any other extraneous 
-modules.  The only node_modules dependencies are: bootstrap, jquery, popper.js and tether.  
+styling, and [Photon kit for icons](http://photonkit.com/).  
+
+A JavaScript version (that should still function is [here][0].
+
+I now only use Typescript for Node.js development, so this sample app has been
+updated to reflect that.  I incorporated linting (using [TSLint][1]).
+
+Package.json has the complete list of dependencies, but primarily they are:
+* bootstrap, jquery, popper.js and tether.  
 
 This repo with npm globally installed electron is ~ 7mb in size when cloned
 and creates a dummy app with this startup screen:
@@ -42,3 +49,6 @@ Issue the following commands after having the prerequisites:
 After first setup:
 ==================
 After closing the app for the first time, it can be restarted via ```electron .```
+
+[0]:https://github.com/dkelosky/electron-jquery-bootstrap/tree/javascript-version
+[1]: https://palantir.github.io/tslint/

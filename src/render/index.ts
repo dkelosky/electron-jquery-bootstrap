@@ -9,7 +9,6 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 // import $ from "bootstrap"
 // import {$} from 'bootstrap';
 import { OS } from "./../util/OS";
-import * as $ from "jquery";
 // console.log("@TEST")
 // wait for document to load
 document.addEventListener("DOMContentLoaded", () => {
