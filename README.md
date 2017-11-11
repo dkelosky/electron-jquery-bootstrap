@@ -39,7 +39,7 @@ Issue the following commands after having the prerequisites:
 
 After first setup:
 ==================
-After closing the app for the first time, it can be restarted via ```electron .```
+After closing the app for the first time, it can be restarted via `electron .`
 
 Linting:
 ========
