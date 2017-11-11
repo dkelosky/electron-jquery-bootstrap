@@ -22,8 +22,7 @@
         "prefer-conditional-expression": false,
         "no-submodule-imports": [
             true,
-            "brightside",
-            "vscode"
+            "bootstrap"
         ]
     },
     "exclude": "test/",

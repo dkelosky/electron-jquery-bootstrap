@@ -1,10 +1,14 @@
 {
     "compilerOptions": {
+        "types": [
+            "node"
+        ],
         "declaration": true,
         "module": "commonjs",
         "moduleResolution": "node",
         "lib": [
-            "es6"
+            "es6",
+            "dom"
         ],
         "target": "es2015",
         "outDir": "./lib",
