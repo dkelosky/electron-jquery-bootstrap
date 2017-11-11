@@ -1,0 +1,30 @@
+{
+    "extends": "tslint:latest",
+    "rules": {
+        "object-literal-sort-keys": false,
+        "ordered-imports": false,
+        "one-line": false,
+        "space-within-parens": false,
+        "max-line-length": [
+            true,
+            150
+        ],
+        "no-magic-numbers": [
+            true,
+            -1,
+            0,
+            1
+        ],
+        "no-consecutive-blank-lines": [
+            true,
+            2
+        ],
+        "prefer-conditional-expression": false,
+        "no-submodule-imports": [
+            true,
+            "bootstrap"
+        ]
+    },
+    "exclude": "test/",
+    "type-check": true
+}

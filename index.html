@@ -4,19 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Bootstrap &amp; jQuery Electron!</title>
-
-    <!-- include open source css, jQuery, and bootsrap files -->
     <link href="css/photon/css/photon.icons.css" rel="stylesheet" type="text/css">
-    <!-- Only use photon icons because of conflicts with Bootstrap -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <script>
         window.$ = window.jQuery = require('jquery');
+        require("./lib/render/index.js");
     </script>
-    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-    <script src="node_modules/tether/dist/js/tether.min.js"></script>
-
-    <!-- include our main script -->
-    <script src="src/index.js"></script>
 </head>
 
 <body>

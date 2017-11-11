@@ -1,11 +1,26 @@
 {
   "name": "electron-min",
   "version": "0.1.0",
-  "main": "main.js",
+  "main": "lib/main.js",
+  "license": "MIT",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc --pretty",
+    "lint": "tslint --force --format verbose \"src/**/*.ts\""
+  },
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.4",
-    "jquery": "^3.1.0",
-    "popper.js": "^1.12.6",
-    "tether": "^1.3.7"
+    "bootstrap": "^4.0.0-beta.2",
+    "electron": "^1.7.9",
+    "jquery": "^3.2.1",
+    "log4js": "^2.3.11"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.2.16",
+    "@types/node": "^8.0.0",
+    "tslint": "^5.0.0",
+    "typescript": "^2.6.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
   }
 }
