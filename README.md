@@ -34,7 +34,6 @@ Issue the following commands after having the prerequisites:
 * `git clone https://github.com/dkelosky/electron-jquery-bootstrap.git`
 * `cd electron-jquery-bootstrap`
 * `npm install`
-* `npm run build`
 * `electron .`
 
 After first setup:
@@ -48,11 +47,11 @@ Linting:
 
 Building:
 =========
-(Needed after modifcation to *.ts files) `npm run build` or `tsc` or `tsc --watch` for compile on save and launch the app.
+(Needed after modifcation to *.ts files) `npm run build` or `tsc` or `tsc --watch` for compile on save and launch the app (assuming you have the typescript compiler globally installed - `npm install -g typescript`).
 
 Overview:
 =========
-`main.ts` loads our main html file `index.html`.  `index.html` is a fairly standard bootstrap-looking html file which 
+`main.ts` loads the main html file `index.html`.  `index.html` is a fairly standard bootstrap-looking html file which 
 `requires` our `lib/render/index.js`. 
 
 If you are on a corporate proxy there are various `npm config set` options to

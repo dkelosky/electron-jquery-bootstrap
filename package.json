@@ -5,6 +5,7 @@
   "license": "MIT",
   "typings": "lib/index.d.ts",
   "scripts": {
+    "prepublish": "npm run build",
     "build": "tsc --pretty",
     "lint": "tslint --force --format verbose \"src/**/*.ts\""
   },
